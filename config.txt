@@ -1,2 +1,2 @@
-shodan=IlhxN89aI5jnoqC3cMnDOvzbiSpSUcld
-securitytrails=4K9UTWACTd9FcGJDN1ssNTFfjZzUC5Rp
+shodan=API-KEY-HERE on line 1
+securitytrails=API-KEY-HERE on line 2
