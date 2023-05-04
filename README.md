@@ -1,3 +1,9 @@
+# 💫 About Me
+👾 Bug Hunter | Student <br>
+<p align="center">
+<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="500"> 
+</p>
+
 # CDNRECON: Peel back the layers of the web
 CDNRECON is a tool that tries to find the origin or backend IP address of a website protected by a CDNs reverse proxy. This tool can be useful in penetration testing to identify the true target IP and in reconnaissance to identify the hosting provider or data center of a website. You can also simply use it to test your own website for any leaks.
 
@@ -102,14 +108,14 @@ Returns data for non Cloudflare IP addresses from Shodan
 [+] Domain(s): ['akamaitechnologies.com', 'kbb.com']
 [+] Open port(s): [80, 443]
 ````
-## Installation and usage
+## Installation and usage For Linux
 
 Requires atleast python version 3.6 since it uses f-strings.
 >Tested on Arch Linux. It should work on any Linux distribution and Windows.
 
 Clone the repository
 ```
-$ git clone https://github.com/Juuso1337/CDNRECON
+$ git clone https://github.com/PushkraJ99/CDNRECON
 ```
 Install the required depencies
 ```
@@ -141,6 +147,40 @@ options:
   --write     Write results to a target.com-results.txt file
 ````
 
+## Installation and usage in Windows CMD
+Requires atleast python version 3.6 since it uses f-strings.
+>Tested on Arch Linux. It should work on any Linux distribution and Windows.
+Clone the repository
+```
+$ git clone https://github.com/PushkraJ99/CDNRECON
+```
+Install the required depencies
+```
+$ cd CDNRECON
+$ pip install https://github.com/PaulSec/API-dnsdumpster.com/archive/master.zip --user
+$ pip3 install -r requirements.txt OR pip install -r requirements.txt
+```
+Sample usage guide
+```
+$ open Notepad and create file name config.txt
+$ put shodan=API-KEY-HERE on line 1
+$ put securitytrails=API-KEY-HERE on line 2
+$ CTRL + S to save file with file Name config.txt
+$ python main.py example.com -c config.txt
+```
+For more in-depth usage info, supply the -h flag (python3 main.py -h).
+````
+usage: main.py [-h] [--write] domain [shodan]
+CDNRECON - A Content Delivery Network recon tool
+positional arguments:
+  domain      Domain to scan
+  shodan      Your Shodan API key
+options:
+  -h, --help  show this help message and exit
+  --write     Write results to a target.com-results.txt file
+````
+
+
 ## How to get a Shodan API key
 <b>1. Register an account at https://account.shodan.io/ (it's totally free).<br>
 <b>2. Head over the to the "Account" page and see the "API key" field.<br>
@@ -158,3 +198,29 @@ options:
 - Add IPv4 range bruteforcer
 - Add favicon hash search
 - Add html body hash search
+
+
+## 🌐 Socials : Follow Me Here For More
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/you_are_not_goodlooking_but_he)
+
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/PushkraJ99) 
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PushkraJ99)
+
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-%23D42029.svg?logo=TryHackMe&logoColor=white)](https://tryhackme.com/p/PushkaraJ)
+
+
+
+## [Snake4Readme](https://github.com/PushkraJ99/Snake4Readme)
+
+<p align="center">
+<img src="https://github.com/PushkraJ99/Snake4Readme/blob/main/Snake4Readme/grid-snake.svg">
+</p><br>
+
+[![](https://visitcount.itsvg.in/api?id=PushkraJ99&icon=8&color=12)](https://visitcount.itsvg.in)
+
+<p align="center"> 
+  <b> Visitor count</b><br>
+  <img src="https://profile-counter.glitch.me/PushkraJ99/count.svg" />
+</p><br>
