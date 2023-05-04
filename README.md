@@ -129,11 +129,11 @@ $ pip3 install -r requirements.txt
 Sample usage guide
 
 ```
-$ nano config
+$ nano config.txt
 $ put shodan=API-KEY-HERE on line 1
 $ put securitytrails=API-KEY-HERE on line 2
 $ CTRL + X to save
-$ python3 main.py example.com -c config
+$ python3 main.py example.com -c config.txt
 ```
 For more in-depth usage info, supply the -h flag (python3 main.py -h).
 ````
