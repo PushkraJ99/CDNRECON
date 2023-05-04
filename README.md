@@ -26,6 +26,9 @@ A more in-depth chronological order of what it does:
 - Optionally returns data from Shodan for possibly leaked IP addresses
 - Optionally writes the results to target.com-results.txt file
 
+[Installation and usage for Linux](## Installation and usage for Linux)
+[Installation and usage in Windows CMD](## Installation and usage in Windows CMD)
+
  Checking the nameservers, common subdomains and their IP addresses
  ```
     __________  _   ______  ________________  _   __
@@ -162,10 +165,10 @@ $ pip3 install -r requirements.txt OR pip install -r requirements.txt
 ```
 Sample usage guide
 ```
-$ open Notepad and create file name config.txt
+$ Open config.txt and Edit With Your API KEYS
 $ put shodan=API-KEY-HERE on line 1
 $ put securitytrails=API-KEY-HERE on line 2
-$ CTRL + S to save file with file Name config.txt
+$ CTRL + S to save config.txt
 $ python main.py example.com -c config.txt
 ```
 For more in-depth usage info, supply the -h flag (python3 main.py -h).
