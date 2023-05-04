@@ -26,8 +26,8 @@ A more in-depth chronological order of what it does:
 - Optionally returns data from Shodan for possibly leaked IP addresses
 - Optionally writes the results to target.com-results.txt file
 
-[Installation and usage for Linux](## Installation and usage for Linux)
-[Installation and usage in Windows CMD](## Installation and usage in Windows CMD)
+- [Installation and usage for Linux](## Installation and usage for Linux) <br>
+- [Installation and usage in Windows CMD](## Installation and usage in Windows CMD)
 
  Checking the nameservers, common subdomains and their IP addresses
  ```
