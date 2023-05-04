@@ -1,0 +1,2 @@
+shodan=IlhxN89aI5jnoqC3cMnDOvzbiSpSUcld
+securitytrails=4K9UTWACTd9FcGJDN1ssNTFfjZzUC5Rp
