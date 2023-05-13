@@ -126,8 +126,8 @@ $ cd CDNRECON
 $ pip install https://github.com/PaulSec/API-dnsdumpster.com/archive/master.zip --user
 $ pip3 install -r requirements.txt
 ```
-Sample usage guide
 
+Sample usage guide
 ```
 $ nano config.txt
 $ put shodan=API-KEY-HERE on line 1
@@ -135,6 +135,12 @@ $ put securitytrails=API-KEY-HERE on line 2
 $ CTRL + X to save
 $ python3 main.py example.com -c config.txt
 ```
+
+Run Tool For CDN Recon
+```
+python3 main.py example.com -c config.txt
+```
+
 For more in-depth usage info, supply the -h flag (python3 main.py -h).
 ````
 usage: main.py [-h] [--write] domain [shodan]
@@ -169,8 +175,13 @@ $ Open config.txt and Edit With Your API KEYS
 $ put shodan=API-KEY-HERE on line 1
 $ put securitytrails=API-KEY-HERE on line 2
 $ CTRL + S to save config.txt
-$ python main.py example.com -c config.txt
 ```
+
+Run Tool For CDN Recon
+```
+python main.py example.com -c config.txt
+```
+
 For more in-depth usage info, supply the -h flag (python3 main.py -h).
 ````
 usage: main.py [-h] [--write] domain [shodan]
