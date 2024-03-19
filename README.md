@@ -222,7 +222,7 @@ options:
 
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PushkraJ99)
 
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-%23D42029.svg?logo=TryHackMe&logoColor=white)](https://tryhackme.com/p/PushkaraJ)
+[![TryHackMe](https://img.shields.io/badge/tryhackme-5AC710?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/PushkaraJ)
 
 
 
